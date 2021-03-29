@@ -5,7 +5,7 @@ export default class Footer extends Component {
         return (
             <div>
                 <div className="footer bg-light mt-2">
-                   <p className='text-right mr-5 ml-5'>Ivan Abdurrafie@2021</p> 
+                   <p className='text-right mr-5 ml-5'>Denny Nur Ramadhan@2021</p> 
                 </div>
             </div>
         )
