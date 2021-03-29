@@ -1,13 +1,14 @@
-import Header from './Header';
-import Navbar from './Navbar';
-import Footer from './Footer';
+import './App.css';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Content from './components/Content';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
       <Header/>
-      <h2>Hello World</h2>
+      <Content/>
       <Footer/>
     </div>
   );
